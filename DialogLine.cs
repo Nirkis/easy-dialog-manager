@@ -10,6 +10,7 @@ public class DialogLine : ScriptableObject
 [System.Serializable]
 public class DilogString
 {
+    public bool isAutoSkip;
     [TextArea] public string text;
     public Character cher;
 }
